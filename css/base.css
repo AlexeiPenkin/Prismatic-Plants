@@ -133,6 +133,13 @@ body{
     height: 124px;
     margin: 0 auto 11px;
 }
+.intro__icon {
+    transition: transform 0.2s ease-in;
+}
+.intro__icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
 
 /* Tinctures */
 .tinctures {
@@ -463,6 +470,13 @@ body{
     height: 25px;
     margin-bottom: 32px;
 }
+.footer__social-icon {
+    transition: transform .2s ease-in;
+}
+.footer__social-icon:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
 .payment__systems {
     display: flex;
     justify-content: space-between;
@@ -471,6 +485,12 @@ body{
     width: 228px;
     height: 24px;
     margin-bottom: 70px;
+}
+.payment__system-icon {
+    transition: transform 0.2s ease-in;
+}
+.payment__system-icon:hover {
+    transform: scale(1.5);
 }
 .footer__copyright {
     font-size: 14px;
@@ -539,6 +559,10 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+}
+.subscribe-form-btn:hover {
+    background: #fff;
+    color: #1e4844;
 }
 .footer__disclaimer {
     display: flex;

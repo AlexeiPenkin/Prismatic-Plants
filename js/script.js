@@ -37,3 +37,8 @@ signupForm.addEventListener("submit", submitSubscribeForm);
 signupPopupCloseButton.addEventListener("click", () =>
   closeSignupPopup(signupPopup)
 );
+
+// отмена скролла станицы на начало после обновления
+window.onload = function(){
+    document.body.scrollTop = false;
+}
